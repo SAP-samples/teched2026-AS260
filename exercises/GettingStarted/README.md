@@ -34,9 +34,9 @@ You can also start directly by asking *"I would like to post accruals for the mo
 
 Depending on your interest, please proceed with one of the exercises on the individual agents:
 
-- [Exercise 1 - Journal Entry Agent](../ex1/)
-- [Exercise 2 - Accounting Accruals Agent](../ex2/)
-- [Exercise 3 - AP/AR Clearing Agent](../ex3/)
-- [Exercise 4 - Analytical Business Insights Agent](../ex4/)
+- [Exercise 1 - Journal Entry Agent](../JournalEntries/)
+- [Exercise 2 - Accounting Accruals Agent](../Accruals/)
+- [Exercise 3 - AP/AR Clearing Agent](../APAR-Clearing/)
+- [Exercise 4 - Analytical Business Insights Agent](../AnalyticalBI/)
 
 It is not necessary to execute the exercises in a given sequence — you can select the one you are most interested in and start testing.

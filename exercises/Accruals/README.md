@@ -190,6 +190,6 @@ Navigate to the **Manage Accrual Proposals** app and verify that the proposals g
 
 You've now completed the Accounting Accruals Agent exercise. You can continue with any of the other agent exercises:
 
-- [Exercise 1 - Journal Entry Agent](../ex1/README.md)
-- [Exercise 3 - AP/AR Clearing Agent](../ex3/README.md)
-- [Exercise 4 - Analytical Business Insights Agent](../ex4/README.md)
+- [Exercise 1 - Journal Entry Agent](../JournalEntries/README.md)
+- [Exercise 3 - AP/AR Clearing Agent](../APAR-Clearing/README.md)
+- [Exercise 4 - Analytical Business Insights Agent](../AnalyticalBI/README.md)

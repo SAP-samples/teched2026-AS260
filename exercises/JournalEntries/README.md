@@ -403,6 +403,6 @@ Continue from Step 4 of Sub-case 5F.
 
 You've now completed the Journal Entry Agent exercise. You can continue with any of the other agent exercises:
 
-- [Exercise 2 - Accounting Accruals Agent](../ex2/README.md)
-- [Exercise 3 - AP/AR Clearing Agent](../ex3/README.md)
-- [Exercise 4 - Analytical Business Insights Agent](../ex4/README.md)
+- [Exercise 2 - Accounting Accruals Agent](../Accruals/README.md)
+- [Exercise 3 - AP/AR Clearing Agent](../APAR-Clearing/README.md)
+- [Exercise 4 - Analytical Business Insights Agent](../AnalyticalBI/README.md)

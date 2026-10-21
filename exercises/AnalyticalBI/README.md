@@ -196,6 +196,6 @@ The ABI Agent AI features operate exclusively on **English-language content**. I
 
 You've now completed the Analytical Business Insights Agent exercise. You can continue with any of the other agent exercises:
 
-- [Exercise 1 - Journal Entry Agent](../ex1/README.md)
-- [Exercise 2 - Accounting Accruals Agent](../ex2/README.md)
-- [Exercise 3 - AP/AR Clearing Agent](../ex3/README.md)
+- [Exercise 1 - Journal Entry Agent](../JournalEntries/README.md)
+- [Exercise 2 - Accounting Accruals Agent](../Accruals/README.md)
+- [Exercise 3 - AP/AR Clearing Agent](../APAR-Clearing/README.md)

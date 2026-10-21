@@ -119,6 +119,6 @@ Once you have confirmed that receivables and/or payables open items are posted i
 
 You've now completed the AP/AR Clearing Agent exercise. You can continue with any of the other agent exercises:
 
-- [Exercise 1 - Journal Entry Agent](../ex1/README.md)
-- [Exercise 2 - Accounting Accruals Agent](../ex2/README.md)
-- [Exercise 4 - Analytical Business Insights Agent](../ex4/README.md)
+- [Exercise 1 - Journal Entry Agent](../JournalEntries/README.md)
+- [Exercise 2 - Accounting Accruals Agent](../Accruals/README.md)
+- [Exercise 4 - Analytical Business Insights Agent](../AnalyticalBI/README.md)

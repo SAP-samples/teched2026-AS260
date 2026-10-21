@@ -1,4 +1,4 @@
-# AS260 - [Session Title]
+# AS260 - Discover the Financial Closing Assistant
 
 ## Description
 
@@ -22,11 +22,11 @@ You will be working in an SAP S/4HANA Cloud system and in Joule or Joule Work. S
 
 ## Exercises
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - Journal Entry Agent](exercises/ex1/)
-- [Exercise 2 - Accounting Accruals Agent](exercises/ex2/)
-- [Exercise 3 - AP/AR Clearing Agent](exercises/ex3/)
-- [Exercise 4 - Analytical Business Insights Agent](exercises/ex4/)
+- [Getting Started](exercises/GettingStarted/)
+- [Exercise 1 - Journal Entry Agent](exercises/JournalEntries/)
+- [Exercise 2 - Accounting Accruals Agent](exercises/Accruals/)
+- [Exercise 3 - AP/AR Clearing Agent](exercises/APAR-Clearing/)
+- [Exercise 4 - Analytical Business Insights Agent](exercises/AnalyticalBI/)
 
 ## Contributing
 

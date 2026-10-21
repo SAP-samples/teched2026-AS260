@@ -79,7 +79,7 @@ The diagram below shows the complete process and where each individual test step
 | Item | Value |
 |------|-------|
 | Test System URL | [https://my441372.s4hana.cloud.sap/ui](https://my441372.s4hana.cloud.sap/ui) |
-| User | AS260-0XX@education.cloud.sap *(replace XX with your participant number)* |
+| User | AS260-0XX *(replace XX with your participant number)* |
 | Password | Acce$$teched26 |
 
 ## 4. Preparation — Test Data Requirements

@@ -16,7 +16,7 @@ You will be working in an SAP S/4HANA Cloud system and in Joule or Joule Work. Y
 | Item | Value |
 |------|-------|
 | Test System URL | [https://my441372.s4hana.cloud.sap/ui](https://my441372.s4hana.cloud.sap/ui) |
-| User | AS260-0XX@education.cloud.sap *(replace XX with your participant number)* |
+| User | AS260-0XX *(replace XX with your participant number)* |
 | Password | Acce$$teched26 |
 
 ## First Steps

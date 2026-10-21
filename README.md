@@ -13,7 +13,7 @@ Please edit this file as it is the primary description file for your project. Yo
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2026 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2026 session called AS260 - Session Title.  
 
 ## Overview
 

@@ -25,12 +25,17 @@ You will be working in an SAP S/4HANA Cloud system and in Joule or Joule Work. Y
 2. Open Joule: you might want to stay in the Joule window or open Joule Work for more convenience.
 3. Start a new conversation.
 4. In the new conversation, please deactivate the **"agentic thinking"**.
-5. Then start typing `@Financial Closing Assistant`.
-6. Ask for example: *"I would like to close the month of October 2026 in the company code XXHO (where XX is your participant number), can you help me with that?"*
+5. Then start typing `@Financial Closing Assistant`, or click on the `@` symbol in the bottom of the Joule window and select `Financial Closing Assistant` from the dropdown.
+6. Ask for example:
+
+```
+I would like to close the month of October 2026 in the company code XXHO, can you help me with that?
+```
+
+> [!NOTE]
+> Replace XXHO with your company code, where XX is your participant number.
 
 The assistant shall propose a series of actions which can be executed with the help of AI agents. These are, for example, clearing of customer and vendor open items, uploading journal entries, preparing accruals or analyzing financial statements KPIs.
-
-You can also start directly by asking *"I would like to post accruals for the month of October 2026 in the company code XXHO"* (where XX is your participant number) or *"please, help me clear open items in the company code XXHO"* (where XX is your participant number). This way, you will directly ask Joule to trigger the accrual agent or the clearing agent respectively.
 
 Depending on your interest, please proceed with one of the exercises on the individual agents:
 

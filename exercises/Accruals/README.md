@@ -120,9 +120,9 @@ If you prefer to test only certain steps, go directly to the respective phase an
 
 | Step | Action / Check | Detail |
 |------|---------------|--------|
-| **Step 1** | **Action** | Open SAP Joule (click the diamond icon ◇ in the top-right area of the Fiori Launchpad). Always start a new conversation.<br><br>**IMPORTANT:** Before entering a prompt, make sure that **agentic thinking is DISABLED** in the Joule window. Remove it if necessary. |
+| **Step 1** | **Action** | Open SAP Joule (click the diamond icon in the top-right area of the Fiori Launchpad). Always start a **new conversation**. Click on the `@` symbol in the bottom of the Joule window and select `Financial Closing Assistant` from the dropdown.<br><br>**IMPORTANT:** Before entering a prompt, make sure that **agentic thinking is DISABLED** in the Joule window. Remove it if necessary. |
 | **Step 1** | **Check** | The new chat window opens. |
-| **Step 2** | **Action** | Type the following message and send it:<br><br>`@Financial Closing Assistant Upload accruals policy handbook for company code XXHO`<br><br>(Replace XXHO with your actual company code.) |
+| **Step 2** | **Action** | Type the following message and send it:<br><br>```Upload accruals policy handbook for company code XXHO```<br><br>(Replace XXHO with your actual company code.) |
 | **Step 2** | **Check** | The agent responds that it is ready to upload an accruals policy handbook for the specified company code and asks the user to attach the policy document. |
 | **Step 3** | **Action** | Click the attachment icon, select the policy handbook file (your accounting policy in PDF format created on the basis of Accruals_Policy_All_Template_V2.pdf), and send the message. |
 | **Step 3** | **Check** | The agent confirms the policy handbook has been successfully uploaded and stored for the company code. |
@@ -140,7 +140,7 @@ Start a new Joule conversation and request the agent to create accrual proposals
 
 | Step | Action / Check | Detail |
 |------|---------------|--------|
-| **Step 1** | **Action** | Open SAP Joule and start a new conversation. Make sure **agentic thinking is DISABLED**. Send the following prompt:<br><br>`@Financial Closing Assistant Create accrual proposals for company code XXHO for period YYYY/MM`<br><br>Replace XXHO with your company code and YYYY/MM with the target fiscal year and period (e.g., 2026/10 for October 2026). |
+| **Step 1** | **Action** | Open SAP Joule and start a new conversation. Make sure **agentic thinking is DISABLED**. Click on the `@` symbol in the bottom of the Joule window and select `Financial Closing Assistant` from the dropdown. Send the following prompt:<br><br>```@Create accrual proposals for company code XXHO for period YYYY/MM```<br><br>Replace XXHO with your company code and YYYY/MM with the target fiscal year and period (e.g., 2026/10 for October 2026). |
 | **Step 2** | **Action** | Wait for the agent to complete the analysis and return the results. |
 | **Step 2** | **Check** | The agent returns a summary of the accrual proposals created, listing for each accrual type: the accrual category name, the proposed accrual amount, and the GL accounts to be used. |
 

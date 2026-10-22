@@ -243,7 +243,7 @@ All JE proposal creation flows begin here. Choose the entry prompt based on the 
 
 | Step | Action / Check | Detail |
 |------|---------------|--------|
-| **Step 1** | **Action** | Open SAP Joule and start a new conversation. Send one of the following prompts:<br><br>**(A) Standard — policy check active:**<br>`Create journal entry proposal`<br><br>**(B) Sub-case 2V — skip policy check (TC 002):**<br>`Create journal entry proposal without checking for policy document`<br><br>Use `@Financial Closing Assistant` as prefix if needed. |
+| **Step 1** | **Action** | Open SAP Joule and start a **new conversation**. Click on the `@` symbol in the bottom of the Joule window and select `Financial Closing Assistant` from the dropdown. Send one of the following prompts:<br><br>**(A) Standard — policy check active:**<br>`Create journal entry proposal`<br><br>**(B) Sub-case 2V — skip policy check (TC 002):**<br>`Create journal entry proposal without checking for policy document`<br><br> |
 | **Step 1** | **Check (A)** | The agent responds that it is ready to help and asks the user to upload a journal entry data file. No mention of policy behavior at this stage. |
 | **Step 1** | **Check (B)** | The agent responds that it is ready to help and asks the user to upload a journal entry data file. It does not mention policy validation — confirming the policy check has been disabled for this session. |
 

@@ -23,7 +23,7 @@ You will be working in an SAP S/4HANA Cloud system and in Joule or Joule Work. Y
 
 1. Login into the SAP S/4HANA system with the user and password indicated above.
 2. Open Joule: you might want to stay in the Joule window or open Joule Work for more convenience.
-3. Start a new conversation.
+3. Start a **new conversation**.
 4. In the new conversation, please deactivate the **"agentic thinking"**.
 5. Then start typing `@Financial Closing Assistant`, or click on the `@` symbol in the bottom of the Joule window and select `Financial Closing Assistant` from the dropdown.
 6. Ask for example:

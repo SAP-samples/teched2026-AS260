@@ -14,56 +14,56 @@ The diagram below shows the complete process.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  PHASE 1 — REPORT SETUP                                                     │
-│  Open Financial Statements Review Booklet; set filter parameters;           │
-│  execute report; verify data loaded under "All Accounts" tab                │
+│  PHASE 1 — REPORT SETUP                                                      │
+│  Open Financial Statements Review Booklet; set filter parameters;            │
+│  execute report; verify data loaded under "All Accounts" tab                 │
 └─────────────────────────────────────────┬────────────────────────────────────┘
                                           │
                                           ▼
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  PHASE 2 — LAUNCH ABI AGENT                                                 │
-│  Open Joule from top-right corner; start a new conversation                 │
+│  PHASE 2 — LAUNCH ABI AGENT                                                  │
+│  Open Joule from top-right corner; start a new conversation                  │
 └─────────────────────────────────────────┬────────────────────────────────────┘
                                           │
                                           ▼
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  PHASE 3 — KPI CALCULATION                                                  │
-│  Enter prompt "Calculate all KPIs";                                         │
-│  verify KPI list displayed, sorted by variance %                            │
-│  Click "View More" to see full list                                         │
+│  PHASE 3 — KPI CALCULATION                                                   │
+│  Enter prompt "Calculate all KPIs";                                          │
+│  verify KPI list displayed, sorted by variance %                             │
+│  Click "View More" to see full list                                          │
 └─────────────────────────────────────────┬────────────────────────────────────┘
                                           │
                                           ▼
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  PHASE 4 — KPI ANALYSIS (DRILL INTO SINGLE KPI)                             │
-│  Select a KPI (e.g. Quick Ratio); click "Analyze";                          │
-│  verify formula components filtered in grid, KPI details in Joule           │
+│  PHASE 4 — KPI ANALYSIS (DRILL INTO SINGLE KPI)                              │
+│  Select a KPI (e.g. Quick Ratio); click "Analyze";                           │
+│  verify formula components filtered in grid, KPI details in Joule            │
 └─────────────────────────────────────────┬────────────────────────────────────┘
                                           │
                                           ▼
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  PHASE 5 — COMPONENT-LEVEL DRILL-DOWN                                       │
-│  Select a formula component (e.g. Cash & Cash Equivalents);                 │
-│  verify report filtered by component; comparison chart and                  │
-│  summary displayed in Joule; Smart Drill Down & Summarize Variance shown    │
+│  PHASE 5 — COMPONENT-LEVEL DRILL-DOWN                                        │
+│  Select a formula component (e.g. Cash & Cash Equivalents);                  │
+│  verify report filtered by component; comparison chart and                   │
+│  summary displayed in Joule; Smart Drill Down & Summarize Variance shown     │
 └─────────────────────────────────────────┬────────────────────────────────────┘
                                           │
                                           ▼
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  PHASE 6 — SMART DRILL DOWN                                                 │
-│  Click "Smart Drill Down"; verify additional dimensions added to report     │
+│  PHASE 6 — SMART DRILL DOWN                                                  │
+│  Click "Smart Drill Down"; verify additional dimensions added to report      │
 └─────────────────────────────────────────┬────────────────────────────────────┘
                                           │
                                           ▼
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  PHASE 7 — SUMMARIZE VARIANCE                                               │
-│  Click "Summarize Variance"; verify contribution analysis displayed         │
+│  PHASE 7 — SUMMARIZE VARIANCE                                                │
+│  Click "Summarize Variance"; verify contribution analysis displayed          │
 └─────────────────────────────────────────┬────────────────────────────────────┘
                                           │
                                           ▼
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  PHASE 8 — RETURN TO KPI LIST                                               │
-│  Click "KPI List"; verify navigation back to full sorted KPI list           │
+│  PHASE 8 — RETURN TO KPI LIST                                                │
+│  Click "KPI List"; verify navigation back to full sorted KPI list            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -125,7 +125,7 @@ To do this, login into the SAP S/4HANA system and type in *"Financial statement 
 
 | Step | Description | Expected Result / Check |
 |------|-------------|------------------------|
-| **4** | Click the diamond icon (◇) in the top-right area of the application to open the SAP Joule side panel. | The Joule side panel opens on the right side of the screen. The report remains visible on the left. |
+| **4** | Click the diamond icon in the top-right area of the application to open the SAP Joule side panel. | The Joule side panel opens on the right side of the screen. The report remains visible on the left. |
 | **5** | In the Joule panel, click the menu button to start a new conversation (or click **New Conversation** if a button is shown). | A fresh conversation context is established in Joule. Any previous conversation history is cleared. |
 
 ### 5.3 KPI Calculation
@@ -135,7 +135,7 @@ To do this, login into the SAP S/4HANA system and type in *"Financial statement 
 
 | Step | Description | Expected Result / Check |
 |------|-------------|------------------------|
-| **6** | In the Joule input field, type and send:<br>`Calculate all KPIs`<br><br>*Alternative prompts: "View KPI values", "Show all KPIs", "Calculate Financial KPIs".* | The ABI Agent returns a KPI summary list sorted in descending order by absolute variance percentage. Each entry shows KPI name, current-year value, comparison-year value, and variance %. A **View More** button and an **Analyze** button are visible next to each entry. |
+| **6** | In the Joule input field, type and send:<br>```Calculate all KPIs```<br><br>*Alternative prompts: ```View KPI values```, ```Show all KPIs```, ```Calculate Financial KPIs```.* | The ABI Agent returns a KPI summary list sorted in descending order by absolute variance percentage. Each entry shows KPI name, current-year value, comparison-year value, and variance %. A **View More** button and an **Analyze** button are visible next to each entry. |
 | **7** | Click the **View More** button in the Joule panel. | The complete list of all calculated KPIs is expanded, sorted by variance percentage descending. An **Analyze** button is shown next to each KPI. |
 
 ### 5.4 KPI Analysis (Drill down into a single KPI)

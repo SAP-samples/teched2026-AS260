@@ -82,7 +82,7 @@ The accruals policy handbook is a document (PDF) that defines the accrual postin
 The policy handbook for this test is the file **[Accruals_Policy_All_Template.docx](../Accruals/Documents/Accruals_Policy_All_Template.docx)**, which is provided with the session materials. It defines four accrual types for company code XXHO.
 
 > [!NOTE]
-> Before running the test, you need to download the handbook and adapt it to your company code and cost centers (replace XXHO, where XX is your participant number). Afterwards, convert the document to *pdf*.
+> Before running the test, you need to download the handbook and adapt it to your company code and cost centers (replace XXHO, where XX is your participant number). Afterwards, convert the document to **pdf**.
 
 ### 4.2 Policy Handbook Summary
 

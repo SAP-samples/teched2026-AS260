@@ -220,9 +220,9 @@ If you prefer to test only certain test cases, please go directly to the respect
 
 | Step | Action / Check | Detail |
 |------|---------------|--------|
-| **Step 1** | **Action** | Open SAP Joule, the diamond icon (◇) in the top-right area of the application. Always start a new conversation.<br><br>**IMPORTANT:** Before entering a prompt in the Joule window, make sure that **"agentic thinking" is DISABLED** and, if necessary, remove it. |
+| **Step 1** | **Action** | Open SAP Joule, the diamond icon in the top-right area of the application. Always start a **new conversation**.<br><br>**IMPORTANT:** Before entering a prompt in the Joule window, make sure that **"agentic thinking" is DISABLED** and, if necessary, remove it. |
 | **Step 1** | **Check** | The new chat window opens. |
-| **Step 2** | **Action** | Type the following message and send it:<br><br>`Upload policy document for journal entry proposal for company code XXHO`<br><br>(Replace XXHO with the actual company code.) Use `@Financial Closing Assistant` as prefix if agent disambiguation is needed. |
+| **Step 2** | **Action** | Click on the `@` symbol in the bottom of the Joule window and select `Financial Closing Assistant` from the dropdown. Type the following message and send it: ```Upload policy document for journal entry proposal for company code XXHO``` (Replace XXHO with the actual company code.) |
 | **Step 2** | **Check** | The agent responds that it is ready to upload a policy file for the specified company code and asks the user to attach the policy Excel file. |
 | **Step 3** | **Action** | Click the attachment icon, select the prepared policy .xlsx file (Section 4.1), and send the message. |
 | **Step 3** | **Check** | The agent confirms the policy file has been successfully uploaded and stored for the company code. |

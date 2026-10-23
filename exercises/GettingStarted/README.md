@@ -45,3 +45,5 @@ Depending on your interest, please proceed with one of the exercises on the indi
 - [Exercise 4 - Analytical Business Insights Agent](../AnalyticalBI/)
 
 It is not necessary to execute the exercises in a given sequence — you can select the one you are most interested in and start testing.
+
+The Introduction-Slides are stored [here](../GettingStarted/Materials/AS260_Financial_Closing_Assistant.pptx) for your reference. 

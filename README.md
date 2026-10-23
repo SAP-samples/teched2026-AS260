@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2026 session **AS260**.
+This repository contains the material for the SAP TechEd 2026 session **AS260 - Discover the Financial Closing Assistant**.
 
 ## Overview
 

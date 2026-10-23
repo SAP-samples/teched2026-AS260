@@ -84,12 +84,12 @@ Before using the Journal Entry Agent to upload general journal entries based on 
 
 If no policy is uploaded into the system, the agent skips this validation step.
 
-The policy file is an Excel (.xlsx) file. Each row defines one allowed GL Account + Cost Center or WBS Element combination for a specific company code. Only one policy per company code can be active at a time.
+The policy file is an Excel (.xlsx) file. Each row defines one allowed GL Account + Cost Center or WBS Element combination for a specific company code. Only one policy per company code can be active at a time. We have prepared an example for you in the file **[AS260_JE_Validation_Policy.xlsx](../JournalEntries/Documents/AS260_JE_Validation_Policy.xlsx)**.
 
 If you would like that the input data for posting journal entries is validated against a policy, where posting rules and valid combinations of posting data are described, then you must create a policy file and upload it as first step. If you would like to test only the upload of data and preparation of journal entry proposals with the Journal Entry Agent, and skip the policy based validation, you can skip the step of preparing an accounting policy and move on directly to the preparation of input Excel files.
 
 > [!WARNING]
-> When preparing policies or Excel files containing journal entries to be uploaded, always replace XX with your participant number so that you use the right company code, cost centers and WBS elements for the postings.
+> When preparing policies or Excel files containing journal entries to be uploaded, always replace **XX** with your participant number so that you use the right company code, cost centers and WBS elements for the postings.
 
 **Policy file columns:**
 
@@ -115,6 +115,7 @@ If you would like that the input data for posting journal entries is validated a
 ### 4.2 Journal Entry Files
 
 Prepare one Excel file per sub-case. The agent accepts .xlsx, .xls, and .csv. Column names do not need to match SAP field names exactly — the agent maps them using AI.
+We have prepared an example for your reference in the file **[AS260_JE_Upload.xlsx](../JournalEntries/Documents/AS260_JE_Upload.xlsx)**.
 
 **Mandatory fields for every row:**
 
